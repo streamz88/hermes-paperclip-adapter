@@ -16,10 +16,6 @@ import {
   buildPaperclipEnv,
   renderTemplate,
   ensureAbsoluteDirectory,
-  asString as _asString,
-  asNumber as _asNumber,
-  asBoolean as _asBoolean,
-  asStringArray as _asStringArray,
 } from "@paperclipai/adapter-utils/server-utils";
 
 import {
@@ -31,7 +27,6 @@ import {
   SESSION_ID_REGEX,
   TOKEN_USAGE_REGEX,
   COST_REGEX,
-  ADAPTER_TYPE,
 } from "../shared/constants.js";
 
 // ---------------------------------------------------------------------------
